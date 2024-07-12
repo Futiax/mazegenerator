@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Labyrinthe Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Maze GENERATOR</h1>
+    <div id="controls-top">
+        <input type="number" id="sizeInput" min="5" max="51" step="2" value="21" placeholder="Taille du labyrinthe">
+        <button id="reloadBtn">Recharger</button>
+        <button id="revealBtn">Révéler chemins</button>
+        <button id="editBtn">Mode Édition</button>
+    </div>
+    <div id="maze"></div>
+    <div id="controls-bottom">
+        <input type="text" id="blockInput" placeholder="Nom du bloc Minecraft">
+        <button id="downloadBtn">Télécharger Datapack</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
